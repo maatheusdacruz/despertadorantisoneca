@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  O computador fala HTTP puro (sem TLS) na rede local. Um IP de LAN muda de casa para casa e
+  não dá para listá-lo aqui, então o cleartext é liberado de forma geral; em compensação o app
+  só aceita parear com endereços de rede local (ver Protocol.isLanHost) e todo pedido é assinado.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
