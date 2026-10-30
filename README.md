@@ -161,3 +161,4 @@ Obrigatório para o alarme não ser adiado/morto pelo fabricante. Em todos: Conf
 - Se o PC estiver **suspenso, desligado ou bloqueado**, o QR não aparece: valem os 60 s e o plano B (contas).
 - O pedido é HTTP puro assinado: protege contra falsificação e replay fora da janela de 300 s, mas não é criptografado. Use só em Wi-Fi de confiança. O QR de pareamento contém a chave; não o mostre em chamadas/capturas de tela.
 - O app não restaura o volume do alarme anterior ao tocar.
+# despertadorantisoneca
